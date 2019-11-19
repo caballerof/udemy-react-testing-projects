@@ -1,5 +1,20 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: sans-serif;
+}
+
+button {
+  margin-right: 10px;
+  width: 185px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.increment {
+  background-color: aquamarine;
+}
+
+.decrement {
+  background-color: brown;
 }
