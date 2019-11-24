@@ -1,12 +1,8 @@
 import React from "react";
-import Enzyme, { shallow } from "enzyme";
-import EnzymeAdapter from "enzyme-adapter-react-16";
+import { shallow } from "enzyme";
 /** Local modules */
 import Congrats from "../components/Congrats";
 import findByTestAttr, { testProp, testPropWithError } from "./utils";
-
-// Configuration for enzyme with the appropriate adapter.
-Enzyme.configure({ adapter: new EnzymeAdapter() });
 
 /**
 * Deafult props for the component.
