@@ -21,6 +21,8 @@ const Congrats = props => {
   return <div data-test-id="component-congrats" />;
 };
 
-Congrats.propTypes = {};
+Congrats.propTypes = {
+  success: PropTypes.bool.isRequired
+};
 
 export default Congrats;
